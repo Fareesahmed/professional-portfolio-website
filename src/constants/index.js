@@ -5,7 +5,6 @@ import creator from "../assets/creator.png";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
-import project4 from "../assets/project4.png";
 
 export const navLinks = [
   {
@@ -66,22 +65,24 @@ export const projects = [
   },
   {
     image: project2,
-    live: "https://react-capstone-project.vercel.app/",
-    source: "https://github.com/soesandarwin2201/react_capstone_project",
-    title: "Bugs Gallery for children education",
+    live: "https://play.google.com/store/apps/details?id=com.quibit.android&hl=en&gl=US",
+    source:
+      "https://play.google.com/store/apps/details?id=com.quibit.android&hl=en&gl=US",
+    title:
+      "Engage with friends and new connections through personalized news feeds",
     description:
-      "A comprehensive Bugs Gallery for children's education that allows users to teach kids about bug species, their abilities, nature, and search for popular species.",
+      "Social platform where connections, conversations, and opportunities seamlessly intertwine, Search Engine: Easily find content, users, and more with our powerful search functionality, Ask Q&A Feature: Pose questions, seek answers, and engage with the community, similar to Stack Overflow, Service Directory: Discover a wide range of services and providers to meet your needs",
     tags: [
       {
-        name: "react",
+        name: "reactNative",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "nextJs",
         color: "green-text-gradient",
       },
       {
-        name: "api",
+        name: "AWS",
         color: "pink-text-gradient",
       },
     ],
@@ -109,28 +110,6 @@ export const projects = [
       },
     ],
   },
-  {
-    title: "House Reservation App",
-    image: project4,
-    live: "https://house-renting-app-reservation.onrender.com/",
-    source: "https://github.com/soesandarwin2201/house-renting-frontend",
-    description:
-      " Led a team of 5 people to develop a house-renting app. This app offers a dynamic and efficient platform for users to find and reserve rental properties while ensuring a user-friendly interface.",
-    tags: [
-      {
-        name: "RubyonRails",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "pink-text-gradient",
-      },
-    ],
-  },
 ];
 export const experiences = [
   {
@@ -142,6 +121,29 @@ export const experiences = [
     points: [
       "Developedinnovative features like a Search Engine, yielding a 20% increase in investment and asignificant boost in daily 1000+ active users .",
       "Managedmultipleprojects concurrently with React Native and nest.js, ensuring efficient delivery of robust solutions, resulting in a 20% increase in user engagement and retention",
+    ],
+  },
+  {
+    title: " Front-EndDeveloper(Freelance)",
+    company_name: "People Ventures Co., Ltd (Korean)",
+    icon: creator,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Present",
+    points: [
+      "nnovatively implemented new app features, achieving a remarkable 50% surge in reservation and task completion rates, while optimizing app functionality for seamless user experience",
+      "Collaborated effectively with Korean team members to leverage diverse perspectives and achieve superior results in project development and execution, fostering a culture of cross-cultural cooperation and excellence",
+    ],
+  },
+  {
+    title: "Javascript FullStack Developer",
+    company_name: " Viabells Singapore",
+    icon: creator,
+    iconBg: "#E6DEDD",
+    date: " Sep 2023 – Dec2023",
+    points: [
+      "Conceptualized, developed, deployed, and published An Advanced AI driven Job-searching Platform from scratch using Next.js, Mui , Node.js and Aws.",
+      "Generatedaprofit of over $2000 even in the first month of launching",
+      "Increaseddaily active users of the site by around 1k.",
     ],
   },
   {
@@ -188,4 +190,8 @@ export const techs = [
   "Remote",
   "GitHub",
   "Git",
+  "React Native",
+  "Nest.js",
+  "AWS",
+  "Flutter",
 ];
