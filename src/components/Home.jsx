@@ -15,15 +15,14 @@ const Home = () => {
           <h4 className={`${styles.sectionSubText}`}>Hi, I am</h4>
           <h1 className={`${styles.heroHeadText} heading`}>Soe Sandar Win</h1>
           <p className={`${styles.heroSubText} mt-1 text-stone-950`}>
-            Coding your dreams into reality - I specialize in building impactful
-            websites that propel{" "}
-            <span className="text">your business forward.</span>{" "}
+            <span className="text">US Certified </span> Full Stack Software
+            Engineer with 2 years of industry experience.
           </p>
           <ul className="list-none hidden sm:flex flex-row gap-5">
             <li>
               <a
                 target="_blank"
-                href="https://www.linkedin.com/in/soe-sandar-win-softwareengineer/"
+                href="https://www.linkedin.com/in/soe-sandar-win/"
                 className="text-xl mt-1"
                 rel="noreferrer"
               >
@@ -44,7 +43,8 @@ const Home = () => {
               <a
                 target="_blank"
                 href="https://wellfound.com/u/soe-sandar-win"
-                className="text-xl mt-1" rel="noreferrer"
+                className="text-xl mt-1"
+                rel="noreferrer"
               >
                 <FaAngellist />
               </a>
